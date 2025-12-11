@@ -1,0 +1,20 @@
+whoami
+systeminfo
+hostname
+
+net user
+net localgroup
+net localgroup administrators
+net share
+
+wmic qfe list
+wmic service list brief
+
+Get-Process
+Get-Service
+Get-WmiObject win32_useraccount
+Get-WmiObject win32_group
+
+# If inside a domain:
+nltest /dclist:LAB.local
+Get-ADUser -Filter *
